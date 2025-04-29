@@ -1,13 +1,22 @@
-# TailwindCSS Components
+# @phucbm/tailwindcss-components
+
+[![release](https://badgen.net/github/release/phucbm/tailwindcss-components/)](https://www.npmjs.com/package/@phucbm/tailwindcss-components)
+[![npm weekly download](https://badgen.net/npm/dm/@phucbm/tailwindcss-components)](https://www.npmjs.com/package/@phucbm/tailwindcss-components)
 
 A collection of ready-to-use helper components for Tailwind CSS that provide common layout patterns and utilities.
 
 ## Installation
 
 ```bash
+# Using npm
 npm install @phucbm/tailwindcss-components
-```
 
+# Using yarn
+yarn add @phucbm/tailwindcss-components
+
+# Using pnpm
+pnpm add @phucbm/tailwindcss-components
+```
 ## Usage
 
 Add the plugin to your `tailwind.config.js` file:
