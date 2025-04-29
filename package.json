@@ -1,6 +1,6 @@
 {
   "name": "@phucbm/tailwindcss-components",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tailwind CSS plugin with ready-to-use helper components for common layout patterns",
   "main": "index.js",
   "type": "module",
