@@ -121,6 +121,9 @@ You can customize the loading appearance with CSS variables:
 
 A flexible grid system using flexbox.
 
+Unlike CSS Grid, `flex-grid-template` leverages Flexbox to provide superior item alignment capabilities like `justify-content:center`, 
+what you can't do with tailwind's `grid`.
+
 ```html
 <div class="flex-grid-template">
   <div>Item 1</div>
@@ -134,11 +137,21 @@ A flexible grid system using flexbox.
 </div>
 ```
 
-You can customize gap sizes:
+You can customize gap sizes using the provided utilities:
 
 ```html
+<!-- Using Tailwind's spacing scale -->
+<div class="flex-grid-template flex-grid-gap-4">
+    <!-- Both x and y gaps set to 1rem (4 in the spacing scale) -->
+</div>
+
+<div class="flex-grid-template flex-grid-gap-x-8 flex-grid-gap-y-2">
+    <!-- X gap: 2rem (8), Y gap: 0.5rem (2) -->
+</div>
+
+<!-- Or with inline styles for custom values -->
 <div class="flex-grid-template" style="--grid-gap-x: 20px; --grid-gap-y: 40px;">
-  <!-- Custom gaps -->
+    <!-- Custom gaps -->
 </div>
 ```
 
