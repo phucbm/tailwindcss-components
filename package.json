@@ -1,0 +1,44 @@
+{
+  "name": "@phucbm/tailwindcss-components",
+  "version": "0.1.0",
+  "description": "Tailwind CSS plugin with ready-to-use helper components for common layout patterns",
+  "main": "index.js",
+  "type": "module",
+  "files": [
+    "index.js",
+    "components/**/*.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phucbm/tailwindcss-components.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "tailwindcss-plugin",
+    "css",
+    "components",
+    "helpers",
+    "layout",
+    "flex",
+    "grid"
+  ],
+  "author": "Phuc Bui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phucbm/tailwindcss-components/issues"
+  },
+  "homepage": "https://github.com/phucbm/tailwindcss-components#readme",
+  "peerDependencies": {
+    "tailwindcss": ">=3.0.0 <=3.4.17"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "tailwindcss": "^3.3.5"
+  }
+}
